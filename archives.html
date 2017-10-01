@@ -1,97 +1,169 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
+    <title>Archives - Mostly Technical Thought</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <title>Archives | Mostly Technical Thought</title>
+    <link href=".//images/pavatar" rel="icon">
 
-		<meta name="description" content="Mostly Technical Thoughts">
-    <meta name="viewport" content="width=device-width">
 
-    <link rel="stylesheet" href="./theme/style/style2.css">
+        <meta name="author" content="Phat Doan" />
+
+    <!-- Open Graph tags -->
+        <meta property="og:site_name" content="Mostly Technical Thought" />
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="Mostly Technical Thought"/>
+        <meta property="og:url" content="."/>
+        <meta property="og:description" content="Mostly Technical Thought"/>
+
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="./theme/css/bootstrap.readable.min.css" type="text/css" title="main"/>
+    <link href="./theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="./theme/css/pygments/native.css" rel="stylesheet">
+    <link href="./theme/tipuesearch/tipuesearch.css" rel="stylesheet">
+    <link rel="stylesheet" href="./theme/css/style.css" type="text/css"/>
+
+
+
 
 
 </head>
-<body id="">
-    <header id="top">
-        <h1 class="site-title"><a href="." title="Mostly Technical Thought">Mostly Technical Thought</a></h1>
-        <div class="container">
-            <nav>
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/archives.html">Archives</a></li>
-                    <li><a href="/about.html">About</a></li>
-                    <li><a href="/about.html">Projects</a></li>
+<body>
 
-                </ul>
-            </nav>
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="./" class="navbar-brand">
+Mostly Technical Thought            </a>
         </div>
-    </header>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                        <li >
+                            <a href="./category/blog.html">Blog</a>
+                        </li>
+						<li class="dropdown" id="theme-dropdown">
+					  <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-cogs icon-large"></i> Theme<b class="caret"></b></a>
+					  <ul class="dropdown-menu">
+				    <li><a href="#" class="change-style-menu-item" rel="cerulean"><i class="icon-fixed-width icon-pencil"></i> Cerulean</a></li>
+				    <li><a href="#" class="change-style-menu-item" rel="cosmo"><i class="icon-fixed-width icon-pencil"></i> Cosmo</a></li>
+				    <li><a href="#" class="change-style-menu-item" rel="cyborg"><i class="icon-fixed-width icon-pencil"></i> Cyborg</a></li>
+				    <li><a href="#" class="change-style-menu-item" rel="darkly"><i class="icon-fixed-width icon-pencil"></i> Darkly</a></li>
+				    <li><a href="#" class="change-style-menu-item" rel="flatly"><i class="icon-fixed-width icon-pencil"></i> Flatly</a></li>
+				    <li><a href="#" class="change-style-menu-item" rel="journal"><i class="icon-fixed-width icon-pencil"></i> Journal</a></li>
+				    <li><a href="#" class="change-style-menu-item" rel="lumen"><i class="icon-fixed-width icon-pencil"></i> Lumen</a></li>
+				    <li><a href="#" class="change-style-menu-item" rel="paper"><i class="icon-fixed-width icon-pencil"></i> Paper</a></li>
+				    <li><a href="#" class="change-style-menu-item" rel="readable"><i class="icon-fixed-width icon-pencil"></i> Readable</a></li>
+				    <li><a href="#" class="change-style-menu-item" rel="sandstone"><i class="icon-fixed-width icon-pencil"></i> Sandstone</a></li>
+				    <li><a href="#" class="change-style-menu-item" rel="simplex"><i class="icon-fixed-width icon-pencil"></i> Simplex</a></li>
+				    <li><a href="#" class="change-style-menu-item" rel="slate"><i class="icon-fixed-width icon-pencil"></i> Slate</a></li>
+				    <li><a href="#" class="change-style-menu-item" rel="solar"><i class="icon-fixed-width icon-pencil"></i> Solar</a></li>
+				    <li><a href="#" class="change-style-menu-item" rel="spacelab"><i class="icon-fixed-width icon-pencil"></i> Spacelab</a></li>
+				    <li><a href="#" class="change-style-menu-item" rel="superhero"><i class="icon-fixed-width icon-pencil"></i> Superhero</a></li>
+				    <li><a href="#" class="change-style-menu-item" rel="united"><i class="icon-fixed-width icon-pencil"></i> United</a></li>
+				    <li><a href="#" class="change-style-menu-item" rel="yeti"><i class="icon-fixed-width icon-pencil"></i> Yeti</a></li>
+					  </ul>
+						</li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><span style="vertical-align: middle;">
+                <form class="navbar-search" action="/search.html">
+                  <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input" required>
+                </form></span>
+              </li>
 
-    <div class="container">
-
-        <div class="content">
-<div id="subhead">
-    <nav>
-        <ul>
-            <li><a href=".">Posts</a></li>
-            <li><a href="./archives/">Archives</a></li>
-            <li><a href="./tag/">Tags</a></li>
-        </ul>
-    </nav>
-    <form id="quick-search" action="./search.html" onsubmit="return (this.elements['q'].value.length > 0)">
-        <input type="search" name="q" placeholder="Search">
-    </form>
-</div>
-    <article class="entry">
-        <header>
-            <h1>
-                Archives
-            </h1>
-        </header>
-        <ul id="archives">
-            <li class="yearly-archive">
-                <h2 class="year"><a title="View all posts in 2017" href="./2017/">2017</a></h2>
-                <div class="article-count">1 articles</div>
-                <ul class="article-archive">
-                    <li class="article">
-                        <a href="./pelican-is-awesome.html">Pelican Is Awesome</a>
-                        <div class="article-date">2017-09-24</div>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-    </article>
+            </ul>
         </div>
-
-        <footer id="footer">
-            <p class="quote"><q>"The man wants to wander, and he must do so or he shall die."</q> <cite><a href="http://en.wikipedia.org/wiki/Richard_Francis_Burton" title="Geographer, explorer, translator, writer, soldier, orientalist, cartographer, ethnologist, spy, linguist, poet, fencer and diplomat">Sir Richard F. Burton</a></cite></p>
-            <p class="copyright">Original work licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" title="Attribution-NonCommercial-ShareAlike 3.0">Creative Commons License</a>.</p>
-            <div class="social">
-                <a class="feed" href="http://phatdoan.com/" title="Subscribe to my feed"><img src="./theme/images/social/feed.png" alt="Feed" height="32" width="32" /></a>
-                <a class="github" href="http://github.com/pigmonkey" title="Follow me on GitHub"><img src="./theme/images/social/github.png" alt="GitHub" height="32" width="32" /></a>
-                <a class="flickr" href="http://flickr.com/pigmonkey" title="Follow me on Flickr"><img src="./theme/images/social/flickr.png" alt="Flickr" height="32" width="32" /></a>
-            </div>
-        </footer>
-
+        <!-- /.navbar-collapse -->
     </div>
+</div> <!-- /.navbar -->
+<!-- Banner -->
+<!-- End Banner -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+    <section id="content">
+      <h1>Archives for Mostly Technical Thought</h1>
+        <div id="archives">
+                <p>
+                    <span class="categories-timestamp"><time datetime="2017-09-24T13:13:00+07:00">2017-09-24</time></span>
+                    <a href="./pelican-is-awesome.html">Pelican Is Awesome</a>
+                </p>
+        </div>
+    </section>
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2017 Phat Doan
+            &middot; Powered by <a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="./theme/js/jquery.min.js"></script>
 
-        <script src="./theme/js/jquery-2.1.1.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="./theme/js/bootstrap.min.js"></script>
 
-    <script src="./theme/js/archivecollapse.js"></script>
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="./theme/js/respond.min.js"></script>
 
-<script type="text/javascript">
-    var pkBaseURL = (("https:" == document.location.protocol) ? "https://pig-monkey.com/stats/" : "http://pig-monkey.com/stats/");
-    document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
-    </script>
-<script type="text/javascript">
-    try {
-        var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
-        piwikTracker.trackPageView();
-        piwikTracker.enableLinkTracking();
-    } catch( err ) {}
-</script>
-<noscript><p><img src="https://pig-monkey.com/stats/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+  <!-- Theme changing function -->
+  <script type="text/javascript">
+    // From http://diveintohtml5.info/storage.html
+    function supports_html5_storage() {
+      try {
+        return 'localStorage' in window && window['localStorage'] !== null;
+      } catch (e) {
+        return false;
+      }
+    }
+    var supports_storage = supports_html5_storage();
+    function set_theme(theme) {
+      $('link[title="main"]').attr('href', theme);
+      if (supports_storage) {
+        localStorage.theme = theme;
+      }
+    }
+    /* When a theme-change item is selected, update theme */
+    jQuery(function($) {
+        $('body').on('click', '.change-style-menu-item', function() {
+          var theme_name = $(this).attr('rel').toLowerCase();
+          var theme = "//maxcdn.bootstrapcdn.com/bootswatch/3.3.7/" + theme_name + "/bootstrap.min.css";
+          set_theme(theme);
+        });
+    });
+    /* On load, set theme from local storage */
+    if (supports_storage) {
+      var theme = localStorage.theme;
+      if (theme) {
+        set_theme(theme);
+      }
+    } else {
+      /* Don't annoy user with options that don't persist */
+      $('#theme-dropdown').hide();
+    }
+  </script>
+
+
+
 </body>
 </html>
