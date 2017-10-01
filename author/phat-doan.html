@@ -83,7 +83,9 @@ Mostly Technical Thought            </a>
                   <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input" required>
                 </form></span>
               </li>
-
+    <form id="quick-search" action="../search.html" onsubmit="return (this.elements['q'].value.length > 0)">
+        <input type="search" name="q" placeholder="Search">
+    </form>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
