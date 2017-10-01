@@ -102,6 +102,12 @@ a, a:hover {
     font-size: 120%;
 }
 
+.summary {
+    max-width: 100%;
+    height: auto;
+		font-size: 120%
+}
+
 .summary img {
     max-width: 100%;
     height: auto;
