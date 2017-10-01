@@ -561,7 +561,7 @@ sub {
 #top nav a {
     color: #fff;
     display: block;
-    line-height: 2em
+    line-height: 1em
 }
 
 #top nav a:hover,
