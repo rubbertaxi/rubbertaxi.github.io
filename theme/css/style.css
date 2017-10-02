@@ -98,7 +98,7 @@ a, a:hover {
     margin-bottom: 2px;
 }
 
-.entry-content p {
+.entry-content p, span {
     font-size: 120%;
 }
 
