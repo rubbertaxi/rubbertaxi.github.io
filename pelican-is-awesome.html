@@ -12,13 +12,13 @@
 <link rel="canonical" href="http://phatdoan.com/pelican-is-awesome.html">
 
         <meta name="author" content="Phat Doan" />
-        <meta name="description" content="This is my first post to my personal weblog, hosted on Github Pages, published using Pelican. I wrote the content in the markdown format using vim as the editor. If you&#39;d like to check it out, follow these simple quickstart steps. To be able to publish Rmarkdown analyses, follow this …" />
+        <meta name="description" content="This is my first post to my personal weblog, hosted on Github Pages, published using Pelican. I wrote the content in the markdown format using vim as the editor. If you&#39;d like to check it out, follow these simple quickstart steps. To be able to publish Rmarkdown analyses, follow this instruction for how to put together an knitpages.R script. As a final step, I put all the commands for knitting Rmarkdowns, generating the output, and pushing to the Github repo into a single update.sh shell script. So everytime I have created a new article, I will just need to do $ ./update.sh and all should be on air within a minute. #! /bin/bash cd ~/publish/ghpages/ Rscript knitpages.R pelican content -o output/ -s pelicanconf.py ghp-import output/ git push git@github.com:phatdoan/phatdoan.github.io.git gh-pages:master" />
 
         <meta property="og:site_name" content="Mostly Technical Thoughts" />
         <meta property="og:type" content="article"/>
         <meta property="og:title" content="Pelican Is Awesome"/>
         <meta property="og:url" content="http://phatdoan.com/pelican-is-awesome.html"/>
-        <meta property="og:description" content="This is my first post to my personal weblog, hosted on Github Pages, published using Pelican. I wrote the content in the markdown format using vim as the editor. If you&#39;d like to check it out, follow these simple quickstart steps. To be able to publish Rmarkdown analyses, follow this …"/>
+        <meta property="og:description" content="This is my first post to my personal weblog, hosted on Github Pages, published using Pelican. I wrote the content in the markdown format using vim as the editor. If you&#39;d like to check it out, follow these simple quickstart steps. To be able to publish Rmarkdown analyses, follow this instruction for how to put together an knitpages.R script. As a final step, I put all the commands for knitting Rmarkdowns, generating the output, and pushing to the Github repo into a single update.sh shell script. So everytime I have created a new article, I will just need to do $ ./update.sh and all should be on air within a minute. #! /bin/bash cd ~/publish/ghpages/ Rscript knitpages.R pelican content -o output/ -s pelicanconf.py ghp-import output/ git push git@github.com:phatdoan/phatdoan.github.io.git gh-pages:master"/>
         <meta property="article:published_time" content="2017-09-24" />
             <meta property="article:section" content="Blog" />
             <meta property="article:author" content="Phat Doan" />
