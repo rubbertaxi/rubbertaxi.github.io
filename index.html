@@ -1,293 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-
-    <meta charset="utf-8">
+    <title>Mostly Technical Thoughts</title>
+    <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Phat Doan">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>	Mostly Technical Thoughts
-</title>
 
-    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    <link href="http://phatdoan.com/theme/css/" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link href="http://phatdoan.com/theme/css/main.css" rel="stylesheet">
+<link rel="canonical" href="http://phatdoan.com">
+        <meta name="author" content="Phat Doan" />
 
-    <!-- Custom Fonts -->
-    <link href="http://phatdoan.com/theme//font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <!-- Open Graph tags -->
+        <meta property="og:site_name" content="Mostly Technical Thoughts" />
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="Mostly Technical Thoughts"/>
+        <meta property="og:url" content="http://phatdoan.com"/>
+        <meta property="og:description" content="Mostly Technical Thoughts"/>
 
-	<!-- RSS FEEDS -->
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="http://phatdoan.com/theme/css/bootstrap.readable.min.css" type="text/css" title="main"/>
+    <link href="http://phatdoan.com/theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="http://phatdoan.com/theme/css/pygments/native.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://phatdoan.com/theme/css/style.css" type="text/css"/>
+
+
+
+
 
 </head>
+<body>
 
-<body id="page-top" class="index">
-
-<nav class="navbar navbar-default navbar-fixed-top" style="background-color:rgba(255, 255, 255, 0.7)">
-    <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a id="focusme" class="navbar-brand" href="#page-top">Mostly Technical Thoughts</a>
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+        <div class="navbar-header">
+            <a href="http://phatdoan.com/" class="navbar-brand">
+Mostly Technical Thoughts            </a>
         </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+						<li class="dropdown" id="theme-dropdown">
+					  <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-cogs icon-large"></i> Theme<b class="caret"></b></a>
+					  <ul class="dropdown-menu">
+				    <li><a href="#" class="change-style-menu-item" rel="cerulean"><i class="icon-fixed-width icon-pencil"></i> Cerulean</a></li>
+				    <li><a href="#" class="change-style-menu-item" rel="cosmo"><i class="icon-fixed-width icon-pencil"></i> Cosmo</a></li>
+				    <li><a href="#" class="change-style-menu-item" rel="cyborg"><i class="icon-fixed-width icon-pencil"></i> Cyborg</a></li>
+				    <li><a href="#" class="change-style-menu-item" rel="darkly"><i class="icon-fixed-width icon-pencil"></i> Darkly</a></li>
+				    <li><a href="#" class="change-style-menu-item" rel="flatly"><i class="icon-fixed-width icon-pencil"></i> Flatly</a></li>
+				    <li><a href="#" class="change-style-menu-item" rel="journal"><i class="icon-fixed-width icon-pencil"></i> Journal</a></li>
+				    <li><a href="#" class="change-style-menu-item" rel="lumen"><i class="icon-fixed-width icon-pencil"></i> Lumen</a></li>
+				    <li><a href="#" class="change-style-menu-item" rel="paper"><i class="icon-fixed-width icon-pencil"></i> Paper</a></li>
+				    <li><a href="#" class="change-style-menu-item" rel="readable"><i class="icon-fixed-width icon-pencil"></i> Readable (Default)</a></li>
+				    <li><a href="#" class="change-style-menu-item" rel="sandstone"><i class="icon-fixed-width icon-pencil"></i> Sandstone</a></li>
+				    <li><a href="#" class="change-style-menu-item" rel="simplex"><i class="icon-fixed-width icon-pencil"></i> Simplex</a></li>
+				    <li><a href="#" class="change-style-menu-item" rel="slate"><i class="icon-fixed-width icon-pencil"></i> Slate</a></li>
+				    <li><a href="#" class="change-style-menu-item" rel="solar"><i class="icon-fixed-width icon-pencil"></i> Solar</a></li>
+				    <li><a href="#" class="change-style-menu-item" rel="spacelab"><i class="icon-fixed-width icon-pencil"></i> Spacelab</a></li>
+				    <li><a href="#" class="change-style-menu-item" rel="superhero"><i class="icon-fixed-width icon-pencil"></i> Superhero</a></li>
+				    <li><a href="#" class="change-style-menu-item" rel="united"><i class="icon-fixed-width icon-pencil"></i> United</a></li>
+				    <li><a href="#" class="change-style-menu-item" rel="yeti"><i class="icon-fixed-width icon-pencil"></i> Yeti</a></li>
+					  </ul>
+						</li>
+            </ul>
             <ul class="nav navbar-nav navbar-right">
             </ul>
         </div>
         <!-- /.navbar-collapse -->
     </div>
-    <!-- /.container-fluid -->
-</nav>
+</div> <!-- /.navbar -->
+<!-- Banner -->
+<!-- End Banner -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <article>
+							
+							<h2><a href="http://phatdoan.com/pelican-is-awesome.html">Pelican Is Awesome</a></h2>
+							<p><time pubdate datetime="2017-09-24T13:13:00+07:00">2017-09-24</time></p>
+						  
+			
 
-<!-- Header -->
-<header>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <img class="img-responsive" src="http://phatdoan.com/images/pieds_cclfdy01.jpg" alt=""> <!--ccl-->
-                <div class="intro-text">
-                    <!--<span class="name">Mostly Technical Thoughts</span>-->
-                    <!--<hr class="star-light">-->
-                    <!--<span class="skills"></span>-->
-					<p style="font-size:35px; letter-spacing:5px"><b>Fdy. LIM</b>pens&nbsp;&amp;&nbsp;<b>Ccl. PICA</b>rd</p>
-					<span class="skills"></span>
-
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
-
-<!-- Portfolio Grid Section -->
-<section id="portfolio">
-	<h2>projects</h2>
-    <div class="container">
-		<div class="filters filters-select">
-			<span class="tags left">
-				<a class="button filter" data-filter="*">all</a>
-				&middot;
-			</span>
-
-			<span class="authors right">
-				<a class="button filter" data-filter="*">all</a>
-				&middot;
- <a class="button filter" data-filter=".Phat Doan">Phat Doan</a>
-			</span>
-
-		</div>
-    	<div class="grid">
-	        <div class="row">
-	            <div class="col-lg-12 text-center">
-	                <!-- <h2></h2> -->
-					<h2></h2>
-	                <br/><!--<hr class="star-primary">-->
-	            </div>
-	        </div>
-
-	        <div class="row">
-		        <div class="col-sm-4 portfolio-item grid-item  Phat Doan   ">
-	        	    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-	        	        <div class="caption">
-	        	            <div class="caption-content">
-								<h4></h4>
-	        	                <i class="fa fa-search-plus fa-2x"></i>
-	        	            </div>
-	        	        </div>
-	        	        <img src="http://phatdoan.com/images/portfolio/cabin.png" class="img-responsive" alt="">
-	        	    </a>
-		        </div>
-		        <div class="col-sm-4 portfolio-item grid-item  Phat Doan   ">
-	        	    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-	        	        <div class="caption">
-	        	            <div class="caption-content">
-								<h4></h4>
-	        	                <i class="fa fa-search-plus fa-2x"></i>
-	        	            </div>
-	        	        </div>
-	        	        <img src="http://phatdoan.com/images/portfolio/" class="img-responsive" alt="">
-	        	    </a>
-		        </div>
-
-	        </div>
-		</div>
-    </div>
-</section>
-
-<!-- About Section -->
-	<section class="success2" id="about">
-	    <div class="container">
-	        <div class="row">
-	            <div class="col-lg-12 text-center">
-	                <h2>Who we are</h2>
-				</br><!--<hr class="star-light">-->
-	            </div>
-	        </div>
-	        <div class="row">
-
-	            <div class="col-lg-4 col-lg-offset-2" style="text-align: justify">
-					<img src="images/ccl_pllab.jpg" align="left" style="margin:3px 23px 10px 0px" height=150px >
-	                
-				</div>
-				<div class="col-sm">
-            		<div class="hidden-lg"></br></div>
-				</div>
-	            <div class="col-lg-4" style="text-align: justify">
-					<img src="images/fdy_pllab.jpg" align="right" style="margin:3px 0 10px 23px" height=150px >
-	                
-				</div>
-	            <div class="col-lg-8 col-lg-offset-2 text-center" style="text-align: justify">
-	                
-	            </div>
-	        </div>
-	    </div>
-	</section>
-	<!-- Contact Section -->
-	<section id="contact">
-	    <div class="container">
-	        <div class="row">
-	            <div class="col-lg-8 col-lg-offset-2 text-center">
-	                <h2>Contact Us</h2>
-					</br>	
-					<a href="https://www.openstreetmap.org/?mlat=50.6332&amp;mlon=3.0612#map=14/50.6332/3.0612&amp;layers=H" target="_blank"><img src="http://phatdoan.com/images/portfolio/map.png" class="img-responsive img-centered" alt=""></a>
-	            </div>
-	        </div>
-				
-			<br/>
-			<div style="text-align:center">
-				<a href="#contact" target="_top" class="email">freddy<span class="iamnotaat"></span></a>
-				&nbsp;&nbsp;-&nbsp;&nbsp; 
-				<a href="#contact" target="_top" class="email">cecile<span class="iamnotaat"></span></a>
-			</div>
-	    </div>
-	</section>
-
-
-<!-- Footer -->
-    <footer class="text-center">
-        <!--ccl
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>Location</h3>
-                        <p><br></p>
-                    </div>
-                    <div class="footer-col col-md-4">
-
-                        <h3>Around the Web</h3>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="https://github.com/thetawavestudio" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
-                            </li>
-
-
-                            <li>
-                                <a href="http://www.twitter.com/thetawavestudio" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-
-
-                        </ul>
-
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>This Theme</h3>
-                        <p>Free Agent is a free to use, open source Bootstrap theme created by Theta Wave Studio, built around the Freelancer theme by <a href="http://startbootstrap.com" target="_blank" >Start Bootstrap</a>.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    -->
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        Copyleft (ɔ) 2017 - Phat Doan
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-<div class="scroll-top page-scroll visible-xs visble-sm">
-    <a class="btn btn-primary" href="#page-top">
-        <i class="fa fa-chevron-up"></i>
-    </a>
-</div>
-	
-			<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-			    <div class="modal-content">
-			        <div class="close-modal" data-dismiss="modal">
-			            <div class="lr">
-			                <div class="rl">
-			                </div>
-			            </div>
-			        </div>
-			        <div class="container">
-			            <div class="row">
-			                <div class="col-lg-8 col-lg-offset-2">
-			                    <div class="modal-body">
-			                        <h2 style="text-align:center">New post</h2>
-			                        <hr class="star-primary">
-									<div class="info">
-								        Oct 04, 2017 &nbsp;&middot;&nbsp;
-										<!-- <a href="http://phatdoan.com/Phat Doan">by Phat Doan</a>   -->
-										by <a href="#portfolio" class="button filter" data-filter=".Phat Doan">Phat Doan</a>
-										&nbsp;&middot;&nbsp;
-								    </div>
-									<p></p>
-			                        <img src="http://phatdoan.com/images/portfolio/cabin.png" class="img-responsive img-centered" alt="">
-			                        <p><p>Here comes the content of my modal "article"... Cred flexitarian meditation, ugh put a bird on it lomo biodiesel disrupt freegan banjo viral. Banjo whatever sriracha paleo. Thundercats hella pour-over, plaid disrupt fixie typewriter tofu ugh viral seitan narwhal.</p></p>
-
-			                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-			                    </div>
-			                </div>
-			            </div>
-			        </div>
-			    </div>
-			</div>
-			<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-			    <div class="modal-content">
-			        <div class="close-modal" data-dismiss="modal">
-			            <div class="lr">
-			                <div class="rl">
-			                </div>
-			            </div>
-			        </div>
-			        <div class="container">
-			            <div class="row">
-			                <div class="col-lg-8 col-lg-offset-2">
-			                    <div class="modal-body">
-			                        <h2 style="text-align:center">Pelican Is Awesome</h2>
-			                        <hr class="star-primary">
-									<div class="info">
-								        Sep 24, 2017 &nbsp;&middot;&nbsp;
-										<!-- <a href="http://phatdoan.com/Phat Doan">by Phat Doan</a>   -->
-										by <a href="#portfolio" class="button filter" data-filter=".Phat Doan">Phat Doan</a>
-										&nbsp;&middot;&nbsp;
-								    </div>
-									<p></p>
-			                        <img src="http://phatdoan.com/images/portfolio/" class="img-responsive img-centered" alt="">
-			                        <p><p>This is my first post to my personal weblog, hosted on Github Pages, published using Pelican. I wrote the content in the markdown format using <a href="https://vim.sourceforge.io/">vim</a> as the editor. If you'd like to check it out, follow these <a href="http://docs.getpelican.com/en/stable/quickstart.html">simple quickstart steps</a>. To be able to publish Rmarkdown analyses, follow <a href="http://michaeltoth.me/how-to-write-pelican-blog-posts-using-rmarkdown-knitr-20.html">this instruction</a> for how to put together an knitpages.R script.</p>
+							 <div style="font-size: 120%" class="summary"> <p>This is my first post to my personal weblog, hosted on Github Pages, published using Pelican. I wrote the content in the markdown format using <a href="https://vim.sourceforge.io/">vim</a> as the editor. If you'd like to check it out, follow these <a href="http://docs.getpelican.com/en/stable/quickstart.html">simple quickstart steps</a>. To be able to publish Rmarkdown analyses, follow <a href="http://michaeltoth.me/how-to-write-pelican-blog-posts-using-rmarkdown-knitr-20.html">this instruction</a> for how to put together an knitpages.R script.</p>
 <p>As a final step, I put all the commands for knitting Rmarkdowns, generating the output, and pushing to the Github repo into a single <em>update.sh</em> shell script. So everytime I have created a new article, I will just need to do <code>$ ./update.sh</code> and all should be on air within a minute.</p>
 <div class="highlight"><pre><span></span><span class="ch">#! /bin/bash</span>
 <span class="nb">cd</span> ~/publish/ghpages/
@@ -295,20 +92,92 @@ Rscript knitpages.R
 pelican content -o output/ -s pelicanconf.py
 ghp-import output/
 git push git@github.com:phatdoan/phatdoan.github.io.git gh-pages:master
-</pre></div></p>
+</pre></div>
+                </div>
+								<footer>
 
-			                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-			                    </div>
-			                </div>
-			            </div>
-			        </div>
-			    </div>
-			</div>
-<!-- Portfolio Modals -->
+								<p class="meta">This post was published on <time pubdate datetime="2017-09-24T13:13:00+07:00">2017-09-24</time>. </p>
 
+                </footer>
+            </article>
+            <hr/>
 
-	
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2017 Phat Doan
+            &middot; Powered by <a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="http://phatdoan.com/theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="http://phatdoan.com/theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="http://phatdoan.com/theme/js/respond.min.js"></script>
+
+  <!-- Theme changing function -->
+  <script type="text/javascript">
+    // From http://diveintohtml5.info/storage.html
+    function supports_html5_storage() {
+      try {
+        return 'localStorage' in window && window['localStorage'] !== null;
+      } catch (e) {
+        return false;
+      }
+    }
+    var supports_storage = supports_html5_storage();
+    function set_theme(theme) {
+      $('link[title="main"]').attr('href', theme);
+      if (supports_storage) {
+        localStorage.theme = theme;
+      }
+    }
+    /* When a theme-change item is selected, update theme */
+    jQuery(function($) {
+        $('body').on('click', '.change-style-menu-item', function() {
+          var theme_name = $(this).attr('rel').toLowerCase();
+          var theme = "//maxcdn.bootstrapcdn.com/bootswatch/3.3.7/" + theme_name + "/bootstrap.min.css";
+          set_theme(theme);
+        });
+    });
+    /* On load, set theme from local storage */
+    if (supports_storage) {
+      var theme = localStorage.theme;
+      if (theme) {
+        set_theme(theme);
+      }
+    } else {
+      /* Don't annoy user with options that don't persist */
+      $('#theme-dropdown').hide();
+    }
+  </script>
+
+    <!-- Disqus -->
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'http-phatdoan-com'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function () {
+            var s = document.createElement('script');
+            s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    </script>
+    <!-- End Disqus Code -->
+
 
 </body>
-
 </html>
