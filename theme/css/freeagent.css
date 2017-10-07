@@ -80,17 +80,19 @@ hr.star-primary:after {
 }
 
 header {
-  background-attachment: scroll;
-  background-image: url(/images/bc.jpg);
-  background-position: center center;
-  background-repeat: none;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-    text-align: center;
-    color: #fff;
-    /*background: #18bc9c;*/
+	opacity: 0.4;	
+	filter: alpha(opacity=40); /* msie */
+	background-attachment: scroll;
+	background-image: url(/images/bc.jpg);
+	background-position: center center;
+	background-repeat: none;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	text-align: center;
+	color: #fff;
+	/*background: #18bc9c;*/
 }
 
 header .container {
