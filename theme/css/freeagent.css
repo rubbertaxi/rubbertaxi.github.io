@@ -125,12 +125,17 @@ header .intro-text .skills {
         padding-bottom: 400px;
     }
 
-    header .intro-text .name {
+    header .intro-text .name1 {
         font-size: 36pt;
     }
-
-    header .intro-text .skills {
-        font-size: 24pt;
+		
+		header .intro-text .name2 {
+        font-size: 36pt;
+    }
+    
+		header .intro-text .skills {
+        font-size: 20pt;
+				font-style: italic;
         display:block;
     }
 }
