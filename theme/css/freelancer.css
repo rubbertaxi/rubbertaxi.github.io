@@ -1,5 +1,5 @@
 /*!
- * Start Bootstrap - Free Agent Bootstrap Theme (http://startbootstrap.com)
+ * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #ca5b10;
+    color: #18bc9c;
 }
 
 h1,
@@ -63,7 +63,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #ca5b10;
+    background-color: #18bc9c;
 }
 
 hr.star-primary {
@@ -80,22 +80,14 @@ hr.star-primary:after {
 }
 
 header {
-  background-attachment: scroll;
-  background-image: url(/images/header-bg.jpg);
-  background-position: center center;
-  background-repeat: none;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
     text-align: center;
     color: #fff;
-    /*background: #18bc9c;*/
+    background: #18bc9c;
 }
 
 header .container {
     padding-top: 100px;
-    padding-bottom: 250px;
+    padding-bottom: 50px;
 }
 
 header img {
@@ -107,24 +99,19 @@ header .intro-text .name {
     display: block;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 4.75em;
+    font-size: 2em;
     font-weight: 700;
-    padding-top:25px;
 }
 
 header .intro-text .skills {
-    display:block;
-    font-size: 2.50em;
+    font-size: 1.25em;
     font-weight: 300;
-
-    padding-top: 50px;
-    padding-bottom: 50px;
 }
 
 @media(min-width:768px) {
     header .container {
         padding-top: 200px;
-        padding-bottom: 400px;
+        padding-bottom: 100px;
     }
 
     header .intro-text .name {
@@ -132,8 +119,7 @@ header .intro-text .skills {
     }
 
     header .intro-text .skills {
-        font-size: 2.50em;
-        display:block;
+        font-size: 1.75em;
     }
 }
 
@@ -154,12 +140,10 @@ header .intro-text .skills {
 
     .navbar-fixed-top.navbar-shrink {
         padding: 10px 0;
-        background-color: black;
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
         font-size: 1.5em;
-
     }
 }
 
@@ -197,8 +181,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #ca5b10;
-    padding-bottom:350px;
+    background: #18bc9c;
 }
 
 @media(max-width:767px) {
@@ -228,7 +211,7 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(202, 91, 16,.9);
+    background: rgba(24,188,156,.9);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -282,7 +265,7 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #ca5b10;
+    color: #18bc9c;
     background: #fff;
 }
 
@@ -335,7 +318,7 @@ section.success {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #ca5b10;
+    color: #18bc9c;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -352,7 +335,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #000000;
+    background-color: #2c3e50;
 }
 
 footer .footer-col {
@@ -361,7 +344,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #000000;
+    background-color: #233140;
 }
 
 .btn-social {
