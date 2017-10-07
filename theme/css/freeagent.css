@@ -85,6 +85,7 @@ header {
 	background-attachment: scroll;
 	background-image: url(/images/bc.jpg);
 	background-position: center center;
+	background-color: #000;
 	background-repeat: none;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
