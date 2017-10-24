@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-    <title>Authors - Absent Avocados</title>
+    <title>Search - Absent Avocados
+</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -70,8 +71,7 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-12">
-  <h1>Authors on Absent Avocados</h1>
-        <li><a href="http://absentavocados.pw/author/absent-avocados.html">Absent Avocados</a> (1)</li>
+<div id="tipue_search_content"></div>
         </div>
     </div>
 </div>
@@ -94,5 +94,17 @@
 
 
 
+    <script type="text/javascript" src="http://absentavocados.pw/theme/tipuesearch/tipuesearch_set.js"></script>
+    <script type="text/javascript" src="http://absentavocados.pw/theme/tipuesearch/tipuesearch.min.js"></script>
+    <script>
+    $(document).ready(function() {
+      $('#tipue_search_input').tipuesearch({
+        'mode' : 'json',
+        'show': 10,
+        'newWindow': false,
+        'contentLocation': 'tipuesearch_content.json'
+      });
+    });
+    </script>
 </body>
 </html>
