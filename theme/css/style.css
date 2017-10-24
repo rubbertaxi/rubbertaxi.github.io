@@ -53,6 +53,8 @@ body, .mbody {
 	font-size: 1.0em;
 	font-weight: normal;
 	border-style: dotted;
+	border-radius: 2px;
+	border-width: 1px;
 }
 
 #sidebar {
