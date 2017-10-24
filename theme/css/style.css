@@ -52,7 +52,7 @@ body, .mbody {
 .texttitle {
 	font-size: 1.0em;
 	font-weight: normal;
-	border-style: solid;
+	border-style: dotted;
 	border-radius: 2px;
 	border-width: 2px;
 }
