@@ -37,7 +37,7 @@
 </head>
 <body>
 
-<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
 	<div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -53,28 +53,6 @@
             <ul class="nav navbar-nav">
                     <li><a href="/archives.html">Archives</a></li>
                     <li><a href="/about.html">About</a></li>
-						<li class="dropdown" id="theme-dropdown">
-					  <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-cogs icon-large"></i> Theme<b class="caret"></b></a>
-					  <ul class="dropdown-menu">
-				    <li><a href="#" class="change-style-menu-item" rel="cerulean"><i class="icon-fixed-width icon-pencil"></i> Cerulean</a></li>
-				    <li><a href="#" class="change-style-menu-item" rel="cosmo"><i class="icon-fixed-width icon-pencil"></i> Cosmo</a></li>
-				    <li><a href="#" class="change-style-menu-item" rel="cyborg"><i class="icon-fixed-width icon-pencil"></i> Cyborg</a></li>
-				    <li><a href="#" class="change-style-menu-item" rel="darkly"><i class="icon-fixed-width icon-pencil"></i> Darkly</a></li>
-				    <li><a href="#" class="change-style-menu-item" rel="flatly"><i class="icon-fixed-width icon-pencil"></i> Flatly</a></li>
-				    <li><a href="#" class="change-style-menu-item" rel="journal"><i class="icon-fixed-width icon-pencil"></i> Journal</a></li>
-				    <li><a href="#" class="change-style-menu-item" rel="lumen"><i class="icon-fixed-width icon-pencil"></i> Lumen</a></li>
-				    <li><a href="#" class="change-style-menu-item" rel="paper"><i class="icon-fixed-width icon-pencil"></i> Paper</a></li>
-				    <li><a href="#" class="change-style-menu-item" rel="readable"><i class="icon-fixed-width icon-pencil"></i> Readable (Default)</a></li>
-				    <li><a href="#" class="change-style-menu-item" rel="sandstone"><i class="icon-fixed-width icon-pencil"></i> Sandstone</a></li>
-				    <li><a href="#" class="change-style-menu-item" rel="simplex"><i class="icon-fixed-width icon-pencil"></i> Simplex</a></li>
-				    <li><a href="#" class="change-style-menu-item" rel="slate"><i class="icon-fixed-width icon-pencil"></i> Slate</a></li>
-				    <li><a href="#" class="change-style-menu-item" rel="solar"><i class="icon-fixed-width icon-pencil"></i> Solar</a></li>
-				    <li><a href="#" class="change-style-menu-item" rel="spacelab"><i class="icon-fixed-width icon-pencil"></i> Spacelab</a></li>
-				    <li><a href="#" class="change-style-menu-item" rel="superhero"><i class="icon-fixed-width icon-pencil"></i> Superhero</a></li>
-				    <li><a href="#" class="change-style-menu-item" rel="united"><i class="icon-fixed-width icon-pencil"></i> United</a></li>
-				    <li><a href="#" class="change-style-menu-item" rel="yeti"><i class="icon-fixed-width icon-pencil"></i> Yeti</a></li>
-					  </ul>
-						</li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
               <li><span style="vertical-align: middle;">
@@ -120,42 +98,6 @@
 <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
 <script src="http://absent-avocados.pw/theme/js/respond.min.js"></script>
 
-  <!-- Theme changing function -->
-  <script type="text/javascript">
-    // From http://diveintohtml5.info/storage.html
-    function supports_html5_storage() {
-      try {
-        return 'localStorage' in window && window['localStorage'] !== null;
-      } catch (e) {
-        return false;
-      }
-    }
-    var supports_storage = supports_html5_storage();
-    function set_theme(theme) {
-      $('link[title="main"]').attr('href', theme);
-      if (supports_storage) {
-        localStorage.theme = theme;
-      }
-    }
-    /* When a theme-change item is selected, update theme */
-    jQuery(function($) {
-        $('body').on('click', '.change-style-menu-item', function() {
-          var theme_name = $(this).attr('rel').toLowerCase();
-          var theme = "//maxcdn.bootstrapcdn.com/bootswatch/3.3.7/" + theme_name + "/bootstrap.min.css";
-          set_theme(theme);
-        });
-    });
-    /* On load, set theme from local storage */
-    if (supports_storage) {
-      var theme = localStorage.theme;
-      if (theme) {
-        set_theme(theme);
-      }
-    } else {
-      /* Don't annoy user with options that don't persist */
-      $('#theme-dropdown').hide();
-    }
-  </script>
 
 
 
