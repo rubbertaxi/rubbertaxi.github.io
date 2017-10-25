@@ -21,7 +21,10 @@ body, .mbody {
 .list-group-item {
     border: none;
 }
-
+span.ce {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
 .tag-0 {
     font-size: 16pt;
 }
