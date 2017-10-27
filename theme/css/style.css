@@ -97,6 +97,7 @@ a, a:hover {
 }
 
 .entry-content a {
+		font-family: 'Saira Semi Condensed';
     text-decoration: none;
  /*   border-bottom: 1px dotted; */
 }
@@ -122,6 +123,9 @@ a, a:hover {
     height: auto;
 }
 
+.summary {
+	font-family: 'Saira Semi Condensed'
+}
 
 .floatright, .align-right {
     float: right;
