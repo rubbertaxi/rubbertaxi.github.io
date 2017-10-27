@@ -123,7 +123,7 @@ a, a:hover {
     height: auto;
 }
 
-.summary {
+h1, h2, h3, h4, h5, .summary {
 	font-family: 'Saira Semi Condensed'
 }
 
