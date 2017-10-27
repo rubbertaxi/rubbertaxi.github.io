@@ -2,7 +2,7 @@ body, .mbody {
     padding-top: 40px !important;
 }
 
-@media (max-width: 380px){
+@media (max-width: 375px){
 body, .mbody {
     padding-top: 80px !important;
 }
