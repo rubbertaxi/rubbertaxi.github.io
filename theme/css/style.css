@@ -3,10 +3,11 @@ body, .mbody {
 }
 
 @media (max-width: 380px){
-.texttitle{
-	font-size: 1.2em;
-	margin-right: 0px !important;
+body, .mbody {
+    padding-top: 40px !important;
 }
+
+
 }
 
 .texttitle {
