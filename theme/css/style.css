@@ -123,13 +123,15 @@ a, a:hover {
     height: auto;
 }
 
-.entry-content, .summary {
+footer,.navbar-nav>li>a, .entry-content, .summary {
 	font-family: 'Roboto'
 }
 
 h1,h2,h3,h4,h5, .entry-title {
 	font-family: 'Roboto'
 }
+
+
 .floatright, .align-right {
     float: right;
 }
