@@ -7,7 +7,8 @@ body, .mbody {
     padding-top: 40px !important;
 	}
 		.texttitle {
-	font-weight: normal;
+  font-size: 1.5em;
+	font-weight: bold;
 	font-family: 'Poiret One', cursive;
 	margin: 2px 2px 2px 2px;
 }	
