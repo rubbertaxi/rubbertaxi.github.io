@@ -60,9 +60,9 @@ span.ce {
 	font-size: 1.1em;
 	font-weight: normal;
 	font-family: 'Megrim', cursive;
-	/*border-style: none;
+  border-style: solid;
 	border-radius: 2px;
-	border-width: 2px;*/
+	border-width: 1px;
 
 }
 
