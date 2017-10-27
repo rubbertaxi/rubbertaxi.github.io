@@ -123,10 +123,13 @@ a, a:hover {
     height: auto;
 }
 
-h1, h2, h3, h4, h5, .summary {
-	font-family: 'Saira Semi Condensed'
+.entry-content, .summary {
+	font-family: 'Roboto'
 }
 
+h1,h2,h3,h4,h5, .entry-title {
+	font-family: 'Saira Semi Condensed'
+}
 .floatright, .align-right {
     float: right;
 }
