@@ -2,11 +2,16 @@ body, .mbody {
     padding-top: 40px !important;
 }
 
-@media (max-width: 375px){
+@media (max-width: 376px){
 body, .mbody {
-    padding-top: 80px !important;
-}
-
+    padding-top: 40px !important;
+	}
+		.texttitle {
+	font-size: 0.8em;
+	font-weight: normal;
+	font-family: 'Poiret One', cursive;
+	margin: 2px 2px 2px 2px;
+}	
 
 }
 
