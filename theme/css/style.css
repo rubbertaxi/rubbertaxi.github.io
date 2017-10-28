@@ -1,11 +1,11 @@
-body, .mbody {
-    padding-top: 40px !important;
+body {
+    padding-top: 35px !important;
+}
+.mbody {
+    padding-top: 43px !important;
 }
 
 @media (max-width: 376px){
-body, .mbody {
-    padding-top: 40px !important;
-	}
 		.texttitle {
   font-size: 1.5em;
 	font-weight: bold;
