@@ -5249,11 +5249,6 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
     margin-bottom: 21.5px
 }
 
-.navbar-text {
-    margin-top: inherit;
-    margin-bottom: inherit;
-	text-alignment: center;
-}
 
 @media (min-width:768px) {
     .navbar-text {

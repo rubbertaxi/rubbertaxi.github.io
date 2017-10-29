@@ -12,6 +12,14 @@ body {
 
 }
 
+.navbar-center
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+}
 
 .texttitle {
 	font-size: 1.8em;
