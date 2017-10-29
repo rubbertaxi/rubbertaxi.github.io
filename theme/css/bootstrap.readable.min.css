@@ -4984,8 +4984,8 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
     .container-fluid>.navbar-header,
     .container>.navbar-collapse,
     .container-fluid>.navbar-collapse {
-        margin-right: -50px;
-        margin-left: -50px;
+        margin-right: -100px;
+        margin-left: -100px;
     }
 }
 
