@@ -4987,6 +4987,11 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
         margin-right: -100px;
         margin-left: -100px;
     }
+	
+	.container>.row{
+		margin-right: 60px;
+		margin-left: 60px;
+	}
 }
 
 .navbar-static-top {
