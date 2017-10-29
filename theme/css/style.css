@@ -18,10 +18,11 @@ body {
 	font-weight: bold;
     position: absolute;
     width: 80%;
-	margin-left: 105px;
+	padding-top: 16px;
+	margin-left: 85px;
 	margin-right: 150px;
     text-align: center;
-	padding-top: 18px;
+	
 }
 
 .texttitle {
