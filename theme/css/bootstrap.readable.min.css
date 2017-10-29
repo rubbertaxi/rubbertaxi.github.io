@@ -1977,8 +1977,8 @@ pre code {
 }
 
 .container {
-    margin-right: 0;
-    margin-left: 0;
+    margin-right: auto;
+    margin-left: auto;
     padding-left: 15px;
     padding-right: 15px
 }
@@ -5044,7 +5044,7 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
 @media (min-width:768px) {
     .navbar>.container .navbar-brand,
     .navbar>.container-fluid .navbar-brand {
-        margin-left: -15px
+        margin-left: -00px
     }
 }
 
