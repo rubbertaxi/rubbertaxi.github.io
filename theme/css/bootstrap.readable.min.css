@@ -7890,7 +7890,7 @@ button.close {
 
 @media (min-width:768px) {
     .navbar .navbar-nav>li>a {
-        padding-top: 5px;
+        padding-top: 0px;
         padding-bottom: 0 !important;
         height: 38px;
     }
