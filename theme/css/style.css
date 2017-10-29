@@ -6,7 +6,7 @@ body {
 		.texttitle {
   font-size: 1.5em;
 	font-weight: bold;
-	font-family: 'Poiret One', cursive;
+	font-family: 'Arizonia', cursive;
 	margin: 2px 2px 2px 2px;
 }	
 
@@ -39,7 +39,7 @@ display: none;
 .texttitle {
 	font-size: 1.8em;
 	font-weight: bold;
-	font-family: 'Poiret One', cursive;
+	font-family: 'Arizonia', cursive;
 	margin-right: 20px !important;
 /*  word-wrap: break-word;
 	border-style: dotted;
