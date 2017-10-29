@@ -108,6 +108,19 @@
 <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
 <script src="http://absent-avocados.pw/theme/js/respond.min.js"></script>
 
+<script>
+	$(document).ready(function(){
+	$(window).on("scroll",function(){
+  	var wn = $(window).scrollTop();
+    if(wn > 120){
+    	$(".navbar-center").css("background","rgba(255,0,0,1)");
+    }
+    else{
+    	$(".navbar-center").css("background","rgba(1,1,1,1)");
+    }
+  });
+});
+	</script>
 
 
 
