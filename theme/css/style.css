@@ -11,12 +11,7 @@ body {
 
 }
 
-@media (min-width: 768px){
-	article {
-	padding-left: 140px;
-	padding-right: 140px;
-	}
-}
+
 .texttitle {
 	font-size: 1.8em;
 	font-weight: bold;
