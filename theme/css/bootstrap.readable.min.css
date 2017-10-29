@@ -5252,6 +5252,7 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
 .navbar-text {
     margin-top: inherit;
     margin-bottom: inherit;
+	text-alignment: center;
 }
 
 @media (min-width:768px) {
