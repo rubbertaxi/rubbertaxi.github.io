@@ -23,7 +23,7 @@ display: none;
 
 .topdate{
 	font-size: 0.8em;
-	text-style: normal;
+	text-style: normal !important;
 }
 
 @media (min-width: 1100px){
