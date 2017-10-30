@@ -16,6 +16,10 @@ body {
 display: none;	
 }
 
+.afooter{
+	font-size: 0.8em;	
+	
+}
 
 
 @media (min-width: 1100px){
