@@ -174,7 +174,7 @@ h1,h2,h3,h4,h5, .entry-title {
 }
 
 .entry-content, .summary {
-	font-size: 100%
+	font-size: 100%;
     text-align: justify;
 }
 
