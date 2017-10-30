@@ -1398,7 +1398,7 @@ html {
 
 body {
     font-family: 'Open Sans', "Times New Roman", Times, serif;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5;
     color: #333333;
     background-color: #ffffff
@@ -4998,8 +4998,8 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
 
 @media (min-width:1024px) {
 	.container>.row{
-		margin-left: 3%;
-		margin-right: 14%;
+		margin-left: 2%;
+		margin-right: 12%;
 	}	
 }
 
