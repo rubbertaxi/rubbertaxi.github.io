@@ -4998,7 +4998,7 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
 
 @media (min-width:1024px) {
 	.container>.row{
-		margin-left: 5%;
+		margin-left: 10%;
 		margin-right: 20%;
 	}	
 }
