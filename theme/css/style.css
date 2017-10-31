@@ -148,6 +148,7 @@ a, a:hover {
 
 .entry-content a {
     font-weight: bold;
+	font-style: italic;
 }
 
 .entry-content a:hover {
