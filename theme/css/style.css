@@ -151,6 +151,11 @@ a, a:hover {
 	font-style: italic;
 }
 
+h5 a {
+    text-decoration: none;
+	
+}
+
 .entry-content a:hover {
     text-decoration: none;
     border-bottom: 1px solid;
