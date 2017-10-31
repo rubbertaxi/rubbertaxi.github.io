@@ -1,5 +1,6 @@
 body {
     padding-top: 43px !important;
+	background-color: "#d3d3d3";
 
 }
 @media (max-width: 376px){
@@ -42,6 +43,11 @@ display: none;
 	margin-right: 120px;
     text-align: center;
 }
+	/*
+	.navbar{
+	background-image: url("img/flower.jpg");	
+	}
+	*/
 }
 
 .texttitle {
