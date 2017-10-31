@@ -146,15 +146,11 @@ a, a:hover {
     color: inherit;
 }
 
-.entry-content a {
+.entry-content > p > a {
     font-weight: bold;
 	font-style: italic;
 }
 
-h5 a {
-    text-decoration: none;
-	
-}
 
 .entry-content a:hover {
     text-decoration: none;
