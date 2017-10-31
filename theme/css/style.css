@@ -146,7 +146,7 @@ a, a:hover {
     color: inherit;
 }
 
-.entry-content a:not(:first-child) {
+.entry-content a {
     font-style: bold;
 }
 
