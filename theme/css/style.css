@@ -146,7 +146,7 @@ a, a:hover {
     color: inherit;
 }
 
-.entry-content>p>a, summary>p> a {
+.entry-content>p>a, .summary>p> a {
     font-weight: bold;
 	font-style: italic;
 }
