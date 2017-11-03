@@ -1,6 +1,6 @@
 body {
     padding-top: 43px !important;
-	background-image: url('image/light-grey.png');
+	background-image: url("image/light-grey.png");
 
 }
 @media (max-width: 376px){
