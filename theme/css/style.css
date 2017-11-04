@@ -1,6 +1,6 @@
 body {
   padding-top: 44px !important;
-	background-image: url("image/light-grey.png");
+	background-image: url("/image/light-grey.png");
 
 }
 @media (max-width: 376px){
@@ -46,6 +46,7 @@ display: none;
 }
 	.navbar-header{
 	background-image: url('/bubble2.png');
+  background-repeat:no-repeat;
 	}
 }
 
