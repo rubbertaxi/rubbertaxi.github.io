@@ -1,11 +1,11 @@
 body {
-  padding-top: 44px !important;
+  padding-top: 35px !important;
 	background-image: url("/image/light-grey.png");
 
 }
 @media (max-width: 376px){
 		.texttitle {
-  font-size: 0.8em;
+  font-size: 1.0em;
 	font-weight: bold;
 	font-family: 'Poiret One', cursive;
 	margin: 2px 2px 2px 2px;
@@ -51,7 +51,7 @@ display: none;
 }
 */
 .texttitle {
-	font-size: 0.8em;
+	font-size: 1.0em;
 	font-weight: bold;
   padding-top: 0px;
 	font-family: 'Poiret One', cursive;
