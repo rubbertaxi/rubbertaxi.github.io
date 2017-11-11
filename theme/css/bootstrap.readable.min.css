@@ -7855,7 +7855,8 @@ button.close {
 }
 
 .navbar {
-    font-family: 'Open Sans', "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif
+    font-family: 'Open Sans', "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    max-height: 32px;
 }
 
 .navbar-nav,
