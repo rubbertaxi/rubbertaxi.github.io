@@ -5103,9 +5103,9 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-nav>li>a {
-    padding-top: 30px;
-    padding-bottom: 5px;
-    line-height: 45px
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 30px
 }
 
 @media (max-width:767px) {
@@ -5142,7 +5142,6 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
     }
     .navbar-nav>li>a {
         padding-top: 0px;
-        padding-bottom: 0px
     }
 }
 
@@ -7898,7 +7897,6 @@ button.close {
     .navbar .navbar-nav>li>a {
     height: 30px;
     padding-top: 0px;
-    
     }
 }
 
