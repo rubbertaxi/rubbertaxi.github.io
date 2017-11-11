@@ -7898,7 +7898,7 @@ button.close {
     .navbar .navbar-nav>li>a {
         padding-top: 0px;
         padding-bottom: 0 !important;
-        height: 100%;
+        height: 30px;
     }
 }
 
